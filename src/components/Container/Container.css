@@ -1,0 +1,10 @@
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+}

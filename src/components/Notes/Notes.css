@@ -1,0 +1,18 @@
+.Notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem 2rem;
+}
+
+.Notes-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+}

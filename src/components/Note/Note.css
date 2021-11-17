@@ -1,0 +1,52 @@
+.Note-box {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  width: 33%;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Note-header {
+  display: flex;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Note-header i {
+  cursor: pointer;
+  margin-left: 0.8rem;
+}
+
+.Note-header input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: var(--purple);
+}
+
+.Note-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.Note-options i {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.Note-options i:last-child {
+  margin-right: 0.8rem;
+}
+
+.Note-options small {
+  margin-left: 0.8rem;
+}
+
+.Note-box textarea {
+  resize: none;
+  margin: 1rem 1rem;
+}

@@ -1,0 +1,18 @@
+button {
+  border: none;
+  padding: 5px 10px;
+  color: var(--white);
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.success-btn {
+  background-color: var(--success);
+}
+
+.alert-btn {
+  background-color: var(--alert);
+}
